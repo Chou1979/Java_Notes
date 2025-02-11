@@ -9,4 +9,4 @@
 
 这个文档的创建时间是：<% tp.file.creation_date()%>
 
-<% await tp.file.move("/3. 知识文件/" + tp.file.title) %>
+<% await tp.file.move("/1. 知识文件/" + tp.file.title) %>
