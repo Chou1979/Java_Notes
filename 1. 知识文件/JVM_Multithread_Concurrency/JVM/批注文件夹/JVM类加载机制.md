@@ -39,4 +39,9 @@
 > 	好处：避免多层级的加载器结构，重复加载某些类。
 
 
+[[003、面试官对于 JVM 类加载机制的猛烈炮火，你能顶住吗【JAD资源网丨www.jiuandun.com】.pdf#page=9&selection=14,7,17,21&color=yellow|p.9]]
+	思考题：如何设计 Tomcat 的类加载机制，才能动态部署 war 包中类，加载到 Tomcat 自身运行的 JVM 中，并执行代码？
+
+[[004、大厂面试题：JVM中有哪些内存区域，分别都是用来干嘛的【JAD资源网丨www.jiuandun.com】.pdf#page=11&selection=27,0,27,36&color=yellow|p.11]] 答案：自定义了很多类加载；每个 webapp 有对应的 webapp 类加载器；打破了双亲委派机制，每个 WebApp 负责加载自己对应的那个 Web 应用的 class 文件，也就是我们写好的某个系统打包好的 war 包中的所有 class 文件，不会传导给上层类加载器去加载。
+
 
