@@ -56,5 +56,7 @@
 
 > [!PDF|] [[004、大厂面试题：JVM中有哪些内存区域，分别都是用来干嘛的【JAD资源网丨www.jiuandun.com】.pdf#page=11&selection=5,2,5,8|004、大厂面试题：JVM中有哪些内存区域，分别都是用来干嘛的【JAD资源网丨www.jiuandun.com】, p.11]]
 > > 	其他内存区域：本地方法栈，存放各种native方法（本地操作里的非java代码）的局部变量表之类的信息。
-> 
-> 
+
+
+[[!PDF|]] [[004、大厂面试题：JVM中有哪些内存区域，分别都是用来干嘛的【JAD资源网丨www.jiuandun.com】.pdf#page=12&selection=10,2,11,3&color=yellow|p.12]]
+>> 思考题：
